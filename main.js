@@ -17,15 +17,24 @@ window.onload = function exampleFunction() {
     var msnry = new Masonry( grid, {
         itemSelector: '.grid-item',
         // columnWidth: 210,
-        gutter: 100
+        gutter: 100,
+        fitWidth: true,
     });
-
     // // init with selector
     // var msnry = new Masonry( '.grid', {
     // // options...
     // });
-    
+
+    var countUp = new CountUp('total', 2000);
+    console.log(countUp)
+    countUp.start();
+
 }
+
+var rellax = new Rellax('.rellax', {
+    center: true
+  });
+
 
 // helper function for css properties
 function css(element, style) {

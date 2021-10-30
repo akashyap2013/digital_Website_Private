@@ -260,6 +260,11 @@ ul{
     width: 50%;
 }
 
+body{
+    width: 100%;
+    background: url("./assets/backgroundpng.png") no-repeat;
+    background-size: cover;
+}
 
 /* -------------x  global classes  x---------------- */
 
